@@ -5,6 +5,10 @@ $(function () {
             label: 'id', name: 'id', index: 'id', key: true, hidden: true
         }, {
             label: '会员名称', name: 'username', index: 'username', width: 80
+        },{
+            label:'身高',name:'height',index:'height',width:80
+        },{
+            label:'体重',name:'weight',index:'weight',width:80
         }, {
             label: '会员密码', name: 'password', index: 'password', hidden: true
         }, {
@@ -155,6 +159,17 @@ var vm = new Vue({
                 type: 2,
                 content: '../shop/cart.html?userId=' + id
             })
+        },
+        weight:function(){
+          var id=getSelectedRow("#jqGrid");
+          if(id==null){
+              return;
+          }
+          openWindow({
+              title:'体重',
+              type:2,
+              content:'../shop/weight.html?userId='+id
+          })
         },
         getInfo: function (id) {
             Ajax.request({

@@ -1,0 +1,7 @@
+<!--pages/ucenter/level/vip.wxml-->
+
+<view class="vip_selector_wrap">
+<text class="vip_text">{{level}}</text>
+  <image src="../../../static/images/vip.jpg" class="vip_image" mode="scaleToFill" />
+
+</view>

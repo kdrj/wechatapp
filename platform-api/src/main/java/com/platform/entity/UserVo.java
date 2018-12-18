@@ -41,20 +41,20 @@ public class UserVo implements Serializable {
     //微信Id
     private String weixin_openid;
     //用户身高
-    private Integer height;
+    private String height;
     //用户体重
-    private Integer weight;
+    private String weight;
 
-    public Integer getHeight() {
+    public String getHeight() {
         return height;
     }
-    public void setHeight(Integer height) {
+    public void setHeight(String height) {
         this.height = height;
     }
-    public Integer getWeight() {
+    public String getWeight() {
         return weight;
     }
-    public void setWeight(Integer weight) {
+    public void setWeight(String weight) {
         this.weight = weight;
     }
 

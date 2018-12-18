@@ -18,6 +18,8 @@
         <result property="registerIp" column="register_ip"/>
         <result property="avatar" column="avatar"/>
         <result property="weixinOpenid" column="weixin_openid"/>
+        <result property="height" column="height"/>
+        <result property="weight" column="weight"/>
     </resultMap>
 
     <select id="queryObject" resultType="com.platform.entity.UserEntity">
@@ -35,7 +37,9 @@
 			mobile,
 			register_ip,
 			avatar,
-			weixin_openid
+			weixin_openid,
+			height,
+			weight
 		from nideshop_user
 		where id = #{id}
 	</select>
@@ -56,6 +60,8 @@
         nideshop_user.register_ip,
         nideshop_user.avatar,
         nideshop_user.weixin_openid,
+        nideshop_user.height,
+        nideshop_user.weight,
         nideshop_user_level.name levelName
         from nideshop_user LEFT JOIN nideshop_user_level ON nideshop_user.user_level_id=nideshop_user_level.id
         WHERE 1=1
@@ -97,7 +103,9 @@
 			`mobile`,
 			`register_ip`,
 			`avatar`,
-			`weixin_openid`)
+			`weixin_openid`,
+			'height',
+			'weight')
 		values(
 			#{username},
 			#{password},
@@ -111,7 +119,9 @@
 			#{mobile},
 			#{registerIp},
 			#{avatar},
-			#{weixinOpenid})
+			#{weixinOpenid},
+			#{height},
+			#{weight})
 	</insert>
 
     <update id="update" parameterType="com.platform.entity.UserEntity">
@@ -130,6 +140,8 @@
             <if test="registerIp != null">`register_ip` = #{registerIp},</if>
             <if test="avatar != null">`avatar` = #{avatar},</if>
             <if test="weixinOpenid != null">`weixin_openid` = #{weixinOpenid}</if>
+            <if test="height!=null">'height'=#{height}</if>
+            <if test="weight!=null">'weight'=#{weight}</if>
         </set>
         where id = #{id}
     </update>

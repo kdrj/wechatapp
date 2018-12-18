@@ -27,6 +27,6 @@ public class ApiBmiController extends ApiBaseAction {
     @PostMapping ("getbmi")
     public Object getbmi(@LoginUser UserVo loginUser){
 
-        return toResponsSuccess(18);
+        return toResponsSuccess("success");
     }
 }

@@ -1,30 +1,50 @@
+<view class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+
+<view class="separate"></view>
 <view class="container">
-    <view class="form-box">
+  <view class="form-box">
 
-    	<view class="form-item">
-    		<input class="username" value="{{username}}" bindinput="bindUsernameInput" placeholder="用户名" auto-focus/>
-    		<image wx:if="{{ username.length > 0 }}" id="clear-username" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
-    	</view>
-
-    	<view class="form-item">
-    		<input class="password" value="{{password}}" password bindinput="bindPasswordInput" placeholder="密码"/>
-    		<image class="clear" id="clear-password" wx:if="{{ password.length > 0 }}" src="/static/images/clear_input.png" catchtap="clearInput"></image>
-    	</view>
-
-        <view class="form-item">
-    		<input class="password" value="{{confirmPassword}}" password bindinput="bindConfirmPasswordInput" placeholder="确认密码"/>
-    		<image class="clear" id="clear-confirm-password" wx:if="{{ confirmPassword.length > 0 }}" src="/static/images/clear_input.png" catchtap="clearInput"></image>
-    	</view>
-
-		<view class="form-item-code" >
-			<view class="form-item code-item">
-				<input class="code" value="{{code}}" bindinput="bindCodeInput" placeholder="验证码"/>
-				<image class="clear" id="clear-code" wx:if="{{ code.length > 0 }}" src="/static/images/clear_input.png" catchtap="clearInput"></image>
-			</view>
-			<image class="code-img" src="https://dl.reg.163.com/cp?pd=yanxuan_web&pkid=SkeBZeG&random=1489903563234"></image>
-		</view>
-
-    	<button type="default" class="login-btn" bindtap="startRegister">注册</button>
-
+    <view class="form-item">
+      <input class="username" value="{{username}}" bindinput="bindUsernameInput" placeholder="用户名" auto-focus/>
+      <image wx:if="{{ username.length > 0 }}" id="clear-username" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
     </view>
+
+    <view class="form-item">
+      <input class="password" value="{{password}}" password bindinput="bindPasswordInput" placeholder="密码" />
+      <image class="clear" id="clear-password" wx:if="{{ password.length > 0 }}" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+
+    <view class="form-item">
+      <input class="password" value="{{confirmPassword}}" password bindinput="bindConfirmPasswordInput" placeholder="确认密码" />
+      <image class="clear" id="clear-confirm-password" wx:if="{{ confirmPassword.length > 0 }}" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <!-- 身高 -->
+    <view class="form-item">
+      <input class="height" value="{{height}}" bindinput="bindHeightInput" placeholder="身高" auto-focus/>
+      <image wx:if="{{ height.length > 0 }}" id="clear-height" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <!-- 体重 -->
+    <view class="form-item">
+      <input class="weight" value="{{weight}}" bindinput="bindWeightInput" placeholder="体重" auto-focus/>
+      <image wx:if="{{ weight.length > 0 }}" id="clear-weight" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <!-- 手机验证 -->
+    <view class="form-item">
+    <input class="mobile" value="{{mobile}}" bindinput="bindMobileInput" placeholder="手机号" auto-focus/>
+    <image wx:if="{{ mobile.length > 0 }}" id="clear-mobile" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <view class="form-item-code">
+      <view class="form-item code-item">
+
+        <input class="code" type="digit" value="{{code}}" name="code" bindinput='bindCodeInput' placeholder="四位验证码" />
+        <image wx:if="{{ code > 0 }}" id="clear-code" name="code" class="clear" src="/static/images/clear_input.png" catchtap="clearInput"></image>
+      </view>
+      <button class="botton-hover" bindtap="countDownPassCode" disabled="{{disableGetMobileCode}}">{{getCodeButtonText}}</button>
+    </view>
+    <button type="default" class="login-btn" bindtap="startRegister">确认</button>
+
+  </view>
 </view>

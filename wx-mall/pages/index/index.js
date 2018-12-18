@@ -24,15 +24,16 @@ Page({
     indexSelect: 0,//被选中的奖品index
     isRunning: false,//是否正在抽奖
     imageAward: [
-      // '../../images/1.jpg',
-      // '../../images/2.jpg',
-      // '../../images/3.jpg',
-      // '../../images/4.jpg',
-      // '../../images/5.jpg',
-      // '../../images/6.jpg',
-      // '../../images/7.jpg',
-      // '../../images/8.jpg',
+      '../../static/images/icon_error.png',
+      '../../static/images/go.png',
+      '../../static/images/icon_error.png',
+      '../../static/images/icon_error.png',
+      '../../static/images/icon_error.png',
+      '../../static/images/icon_error.png',
+      '../../static/images/icon_error.png',
+      '../../static/images/icon_error.png',
     ],//奖品图片数组
+    award:[10,20,30,40,50,60,70,80],
   },
   onShareAppMessage: function () {
     return {
@@ -96,7 +97,7 @@ Page({
   onLoad: function (options) {
     this.gamecenter();
     // 地图开始
-    this.mapCtx = wx.createMapContext('myMap');//获取地图对象同canvas相似，获取后才能调用相应的方法
+    this.mapCtx = wx.createMapContext('myMap');//获取地图对象
     this.mapCtx.moveToLocation()//将当前位置移动到地图中心
     this.mapCtx.includePoints({
       padding: [10],
@@ -212,9 +213,12 @@ Page({
     })
     var _this = this;
     var indexSelect = 0
+    var award=this.data.award;
     var i = 0;
+    var time = Math.floor(1 + Math.random() * 7)
+    console.log(time)
     var timer = setInterval(function () {
-      indexSelect++;
+      indexSelect=indexSelect+time;
       //这里我只是简单粗暴用y=30*x+200函数做的处理.可根据自己的需求改变转盘速度
       i += 30;
       if (i > 1000) {
@@ -224,22 +228,25 @@ Page({
 
         wx.showModal({
           title: '恭喜您',
-          content: '获得了第' + (_this.data.indexSelect + 1) + "个优惠券",
-          showCancel: false,//去掉取消按钮
+          content: '获得了第' + _this.data.award[indexSelect]+ "元",
+          showCancel: true,//去掉取消按钮
           success: function (res) {
             if (res.confirm) {
               _this.setData({
                 isRunning: false
               })
+              wx.navigateTo({
+                url: '../goods/goods?id=108000',
+              })
             }
           }
         })
       }
-      indexSelect = indexSelect % 8;
+      indexSelect = indexSelect%8;
       _this.setData({
         indexSelect: indexSelect
       })
-    }, (200 + i))
+    }, (50+time+i) )
   },
   onReady: function () {
     // 页面渲染完成

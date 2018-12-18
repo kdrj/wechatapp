@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.platform.dao.WeightDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.platform.entity.UserWeightEntity" id="userWeightEntity">
+        <result property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="weight" column="weight"/>
+        <result property="createDate" column="create_date"/>
+    </resultMap>
+
+    <select id="queryObject" resultMap="userWeightEntity">
+		select * from nideshop_user_weight where id = #{value}
+	</select>
+
+    <select id="queryList" resultMap="userWeightEntity">
+        select * from nideshop_user_weight where id=#{value}
+        <choose>
+            <when test="sidx != null and sidx.trim() != ''">
+                order by ${sidx} ${order}
+            </when>
+            <otherwise>
+                order by id desc
+            </otherwise>
+        </choose>
+    </select>
+
+    <insert id="save" parameterType="com.platform.entity.UserWeightEntity" useGeneratedKeys="true" keyProperty="id">
+		insert into nideshop_user_weight(
+			`user_id`,
+			'weight',
+			'create_date')
+		values(
+			#{userId},
+			#{weight},
+			#{createDate})
+	</insert>
+
+    <update id="update" parameterType="com.platform.entity.UserWeightEntity">
+        update nideshop_user_weight
+        <set>
+            <if test="userId != null">`user_id` = #{userId}, </if>
+            <if test="weight != null">`weight` = #{weight}, </if>
+            <if test="createDate != null">`create_date` = #{creaateDate}, </if>
+        </set>
+        where user_id = #{user_id}
+    </update>
+
+    <delete id="delete">
+		delete from nideshop_user_weight where user_id = #{value}
+	</delete>
+    <delete id="deletebatch">
+        delete from nideshop_user_weight where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

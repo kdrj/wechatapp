@@ -1,0 +1,24 @@
+<!--pages/ucenter/record/record.wxml-->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">日期</view>
+    <view class="th">体重</view>
+    <view class="th ">BMI</view>
+  </view>
+  <block wx:for="{{userWeight}}" wx:key="{{item}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.createDate}}</view>
+      <view class="td">{{item.weight}}</view>
+      <view class="td">{{item.id}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.createDate}}</view>
+      <view class="td">{{item.weight}}</view>
+      <view class="td">{{item.id}}</view>
+    </view>
+  </block>
+</view>
+<view class="plt" ><text class="txt">体重折线图</text></view>
+<view class="pic">
+<canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas"></canvas>
+</view>

@@ -115,7 +115,6 @@ page{
     background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-sdf6a55ee56-f2c2b9c2f0.png) 0 -437.5rpx no-repeat;
     background-size: 52.803rpx;
 }
-
 .user-menu .icon.coupon{
     background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-sdf6a55ee56-f2c2b9c2f0.png) 0 -62.4997rpx no-repeat;
     background-size: 52.803rpx;
@@ -192,4 +191,8 @@ page{
   font-size:20rpx;
   text-align:center;
   margin-top:50px;
+}
+.level{
+  margin-top: 0rpx;
+  color: #FFF;
 }

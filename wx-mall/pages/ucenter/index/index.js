@@ -6,10 +6,21 @@ var app = getApp();
 Page({
     data: {
         userInfo: {},
-        hasMobile: ''
+        hasMobile: '',
+        level:''
     },
     onLoad: function (options) {
         // 页面初始化 options为页面跳转所带来的参数
+      var level = this.data.level;
+      let that=this;
+      util.request(api.GetUserLevel).then(function (res) {
+        console.log(res.data)
+        if (res.errno === 0) {
+          that.setData({
+            level: res.data
+          });
+        }
+      });
     },
     onReady: function () {
 

@@ -103,23 +103,31 @@ public class ApiUserController extends ApiBaseAction {
     }
 
     /**
-     * 绑定手机
+     * 完善信息
      */
-    @ApiOperation(value = "绑定手机")
-    @PostMapping("bindMobile")
+    @ApiOperation(value = "完善信息")
+    @PostMapping("updateinfo")
     public Object bindMobile(@LoginUser UserVo loginUser) {
         JSONObject jsonParams = getJsonRequest();
         SmsLogVo smsLogVo = userService.querySmsCodeByUserId(loginUser.getUserId());
 
         String mobile_code = jsonParams.getString("mobile_code");
         String mobile = jsonParams.getString("mobile");
+        String username = jsonParams.getString("username");
+        String password = jsonParams.getString("password");
+        String height = jsonParams.getString("height");
+        String weight = jsonParams.getString("weight");
 
         if (!mobile_code.equals(smsLogVo.getSms_code())) {
             return toResponsFail("验证码错误");
         }
         UserVo userVo = userService.queryObject(loginUser.getUserId());
         userVo.setMobile(mobile);
+        userVo.setUsername(username);
+        userVo.setPassword(password);
+        userVo.setHeight(height);
+        userVo.setWeight(weight);
         userService.update(userVo);
-        return toResponsSuccess("手机绑定成功");
+        return toResponsSuccess("修改成功");
     }
 }

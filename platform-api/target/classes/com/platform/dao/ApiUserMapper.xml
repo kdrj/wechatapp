@@ -19,6 +19,8 @@
         <result property="register_ip" column="register_ip"/>
         <result property="avatar" column="avatar"/>
         <result property="weixin_openid" column="weixin_openid"/>
+        <result property="height" column="height"/>
+        <result property="weight" column="weight"/>
     </resultMap>
 
     <select id="queryObject" resultMap="userMap">
@@ -103,6 +105,8 @@
             <if test="register_ip != null">`register_ip` = #{register_ip},</if>
             <if test="avatar != null">`avatar` = #{avatar},</if>
             <if test="weixin_openid != null">`weixin_openid` = #{weixin_openid}</if>
+            <if test="height != null">`height` = #{height}</if>
+            <if test="weight != null">`weight` = #{weight}</if>
         </set>
         where id = #{userId}
     </update>

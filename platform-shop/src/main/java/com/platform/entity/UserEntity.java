@@ -42,6 +42,11 @@ public class UserEntity implements Serializable {
     private String avatar;
     //微信Id
     private String weixinOpenid;
+    //用户身高
+    private String height;
+
+    //用户体重
+    private String weight;
 
     /**
      * 翻译用的字段
@@ -251,5 +256,21 @@ public class UserEntity implements Serializable {
 
     public void setLevelName(String levelName) {
         this.levelName = levelName;
+    }
+
+    public String getHeight() {
+        return height;
+    }
+
+    public void setHeight(String height) {
+        this.height = height;
+    }
+
+    public String getWeight() {
+        return weight;
+    }
+
+    public void setWeight(String weight) {
+        this.weight = weight;
     }
 }

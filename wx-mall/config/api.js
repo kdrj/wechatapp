@@ -68,9 +68,9 @@ module.exports = {
 
     FeedbackAdd: API_BASE_URL + 'feedback/save', //添加反馈
     SmsCode: API_BASE_URL + 'user/smscode', //发送短信
-    BindMobile: API_BASE_URL + 'user/bindMobile', //绑定手机
+    UpdateUserInfo: API_BASE_URL + 'user/updateinfo', //信息完善
     Login: API_BASE_URL + 'auth/login', //账号登录
-    Register: API_BASE_URL + 'auth/register', //注册
+    Register: API_BASE_URL + 'register/register', //注册
     CouponList: API_BASE_URL + 'coupon/list', // 优惠券列表
     GoodsCouponList: API_BASE_URL + 'coupon/listByGoods', // 商品优惠券列表   
     OrderQuery: API_BASE_URL + 'pay/query',//微信查询订单状态
@@ -78,4 +78,6 @@ module.exports = {
     HelpTypeList: API_BASE_URL + 'helpissue/typeList', //查看帮助类型列表
     HelpIssueList: API_BASE_URL + 'helpissue/issueList', //查看问题列表
     GetBmi:API_BASE_URL+'bmi/getbmi',//查看bmi
+    GetUserLevel: API_BASE_URL +'user/getUserLevel',//查看会员等级
+    GetUserWeight: API_BASE_URL +'weight/queryweightlist',//查询体重
 };

@@ -7,22 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c604aa6e-c1ad-41c5-aec6-3c40e509dbcd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/platform-admin/src/main/java/com/platform/controller/SysPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/java/com/platform/controller/SysPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-admin/src/main/resources/dev/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/resources/dev/platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-admin/src/main/resources/prod/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/resources/prod/platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-admin/src/main/webapp/WEB-INF/page/sys/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/webapp/WEB-INF/page/sys/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-admin/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-admin/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-admin/target/classes/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/target/classes/platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/WEB-INF/classes/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/WEB-INF/classes/platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/WEB-INF/lib/platform-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/WEB-INF/lib/platform-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/dev/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/dev/platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/target/platform-admin-1.0.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/usercoupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/usercoupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/target/classes/com/platform/api/ApiBmiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/target/classes/com/platform/api/ApiBmiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/target/classes/com/platform/api/ApiUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/target/classes/com/platform/api/ApiUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/target/classes/com/platform/dao/ApiUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/target/classes/com/platform/dao/ApiUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-api/target/classes/com/platform/entity/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/target/classes/com/platform/entity/UserVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform.war" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/com/platform/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/com/platform/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/com/platform/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/com/platform/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/classes/platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-gen-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-gen-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-mp-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-mp-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-schedule-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/lib/platform-schedule-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/page/shop/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/page/shop/channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/page/shop/shopuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/page/shop/shopuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/dev/platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/dev/platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-framework/target/platform/js/shop/shopuser.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform-framework/target/platform/js/shop/shopuser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/com/platform/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/com/platform/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/shopuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/shopuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/shopuser.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/shopuser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/classes/com/platform/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/classes/com/platform/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/classes/com/platform/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/classes/com/platform/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/classes/com/platform/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/classes/com/platform/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/classes/com/platform/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/classes/com/platform/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/lib/platform-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/lib/platform-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/page/shop/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/page/shop/channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/page/shop/shopuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/WEB-INF/page/shop/shopuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/js/shop/shopuser.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/target/platform-shop-1.0.0/js/shop/shopuser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx-mall/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx-mall/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/config/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-mall/pages/auth/btnAuth/btnAuth.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/auth/btnAuth/btnAuth.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/auth/register/register.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx-mall/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx-mall/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-mall/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/pages/ucenter/index/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx-mall/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx-mall/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wx-mall/static/images/logo.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/platform-shop/target/" />
     <ignored path="$PROJECT_DIR$/platform-api/target/" />
@@ -40,34 +79,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="platform" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysPageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-admin/src/main/java/com/platform/controller/SysPageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="24" column="87" lean-forward="true" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApiAuthController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiAuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1236">
+              <caret line="132" column="52" lean-forward="true" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLevelVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserLevelVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiWeightController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiWeightController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiWeightMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/dao/ApiWeightMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiWeightMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiWeightMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -75,11 +155,15 @@
       <file leaf-file-name="ApiUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/service/ApiUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="75">
               <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
                 <element signature="e#1421#1422#0" expanded="true" />
                 <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,56 +172,26 @@
       <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/dao/BaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="299">
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysUserDao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platform-common/src/main/resources/com/platform/dao/SysUserDao.xml">
+      <file leaf-file-name="ApiUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/dao/ApiUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="159">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserInfo.java">
+      <file leaf-file-name="ApiUserMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserCouponVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserCouponVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiBmiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PathVariable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/bind/annotation/PathVariable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="53">
+              <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -147,26 +201,46 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content-main</find>
-      <find>channel</find>
-      <find>add</find>
-      <find>vm</find>
-      <find>toggleFullScreen</find>
-      <find>loginBox</find>
-      <find>form</find>
-      <find>formValidate</find>
-      <find>goods</find>
-      <find>401</find>
       <find>Grid</find>
-      <find>jqGrid</find>
       <find>menuItem</find>
       <find>UserVo</find>
+      <find>requestUrl</find>
+      <find>vm</find>
+      <find>formValidate</find>
+      <find>sessionData</find>
+      <find>categoryList</find>
+      <find>jqGrid</find>
+      <find>query</find>
+      <find>channel</find>
+      <find>category</find>
+      <find>add</find>
+      <find>update</find>
+      <find>register</find>
+      <find>CacheChannel</find>
+      <find>cache</find>
+      <find>reload(</find>
+      <find>mobile</find>
+      <find>coupon</find>
+      <find>shopCart</find>
+      <find>getQueryString</find>
+      <find>userId</find>
+      <find>getInfo</find>
+      <find>goods</find>
+      <find>goods_name</find>
+      <find>list</find>
+      <find>cart/list</find>
+      <find>classp</find>
+      <find>userInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +250,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/platform-admin/src/main/resources/j2cache.properties" />
-        <option value="$PROJECT_DIR$/platform-admin/src/main/resources/dev/platform.properties" />
         <option value="$PROJECT_DIR$/platform-admin/src/main/webapp/WEB-INF/page/sys/header.html" />
         <option value="$PROJECT_DIR$/platform-admin/src/main/webapp/WEB-INF/page/sys/main.html" />
         <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiIndexController.java" />
@@ -186,11 +259,36 @@
         <option value="$PROJECT_DIR$/platform-admin/src/main/resources/prod/platform.properties" />
         <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/UserCouponController.java" />
         <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/usercoupon.html" />
-        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java" />
         <option value="$PROJECT_DIR$/platform-admin/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/platform-admin/src/main/java/com/platform/controller/SysPageController.java" />
+        <option value="$PROJECT_DIR$/platform-admin/src/main/resources/dev/platform.properties" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/channel.html" />
         <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserVo.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiUserController.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/resources/com/platform/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserWeight.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/dao/ApiWeightMapper.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/service/ApiWeightService.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserWeightEntity.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/shopuser.js" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/coupon.html" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/weight.js" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/dao/WeightDao.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/service/WeightService.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/service/impl/WeightServiceImpl.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/cart.js" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/weight.html" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/shopuser.html" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/WeightController.java" />
+        <option value="$PROJECT_DIR$/platform-shop/src/main/resources/com/platform/dao/UserWeightDao.xml" />
+        <option value="$PROJECT_DIR$/platform-framework/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiWeightController.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiWeightMapper.xml" />
         <option value="$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiAuthController.java" />
+        <option value="$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserMapper.xml" />
       </list>
     </option>
   </component>
@@ -207,9 +305,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/platform-vue/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/platform-vue/package.json" />
+      <path value="$PROJECT_DIR$/wx-mall/lib/wx-charts/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
@@ -224,8 +332,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,11 +343,6 @@
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="_sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +364,7 @@
               <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
@@ -270,7 +372,17 @@
               <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,46 +391,10 @@
               <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
@@ -381,16 +457,6 @@
               <item name="platform-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,25 +471,42 @@
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -431,7 +514,7 @@
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -441,70 +524,20 @@
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -513,7 +546,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -641,6 +674,9 @@
       </method>
     </configuration>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -653,44 +689,44 @@
       <updated>1543930318718</updated>
       <workItem from="1543930322621" duration="6895000" />
       <workItem from="1544059408450" duration="162000" />
-      <workItem from="1544060084497" duration="59557000" />
+      <workItem from="1544060084497" duration="67917000" />
+      <workItem from="1544659818435" duration="77541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66614000" />
+    <option name="totallyTimeSpent" value="152515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1458" height="884" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1458" height="884" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32820514" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32884902" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32819074" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32819074" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32947975" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32947975" />
+      <window_info id="Structure" order="1" sideWeight="0.50070125" side_tool="true" weight="0.26083815" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32793522" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32678822" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.5189341" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17948718" />
-      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5091164" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.6409537" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884902" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info id="Web" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.31430635" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32875723" />
+      <window_info id="Web" order="5" sideWeight="0.50070125" side_tool="true" weight="0.26083815" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50070125" side_tool="true" weight="0.26083815" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -705,350 +741,372 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/oss/CloudStorageService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/annotation/RequiresGuest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-549">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="184">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/prod/platform.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/annotation/RequiresPermissions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="46">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/com/platform/dao/SysOssDao.xml">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/util/MyX509TrustManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/service/TokenService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3730" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/GoodsGalleryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/GoodsAttributeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="-207">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/interceptor/AuthorizationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+        <state relative-caret-position="-140">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/annotation/IgnoreAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/service/impl/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/resources/com/platform/dao/SysMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/dao/SysMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/shiro/VelocityShiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/aop/AuthorizingAnnotationMethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/interceptor/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/shiro/CluterShiroSessionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/shiro/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="48" selection-start-line="48" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserWeightEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/platform-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/resources/com/platform/dao/UserWeightDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/WeightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="42" column="62" lean-forward="true" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/service/WeightService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="297" column="35" selection-start-line="297" selection-start-column="35" selection-end-line="297" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/prod/platform.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-659" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/com/platform/dao/SysOssDao.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/CartController.java">
+    <entry file="file://$PROJECT_DIR$/platform-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="-2158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/service/impl/WeightServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserCouponEntity.java">
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/dao/WeightDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+        <state relative-caret-position="138">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/entity/UserEntity.java">
+    <entry file="file://$PROJECT_DIR$/platform-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/resources/platform-common.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/resources/cert/证书使用说明.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="182" column="5" lean-forward="true" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        <state relative-caret-position="-89" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-framework/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="72" column="93" selection-start-line="72" selection-start-column="93" selection-end-line="72" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiPayController.java">
+    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="202">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiCartController.java">
+    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/resources/spring-jdbc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="-1249">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBuyController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserLevelMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="175">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiIndexController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/service/ApiWeightService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        <state relative-caret-position="212">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiOrderController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/FullUserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiFeedbackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="230">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/util/ApiBaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="82" column="57" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiCouponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiGoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4278">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/product.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/js/shop/usercoupon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-vue/src/pages/cart/cart.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-vue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/webapp/WEB-INF/page/shop/usercoupon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8809">
-          <caret line="401" column="29" selection-start-line="401" selection-start-column="21" selection-end-line="401" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/webapp/statics/img/del.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/webapp/statics/img/bg_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/webapp/statics/img/login.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/webapp/statics/img/login_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-shop/src/main/java/com/platform/controller/UserCouponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/util/ApiPageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/platform-api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/java/com/platform/entity/SysOssEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/java/com/platform/dao/SysOssDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/bind/annotation/PathVariable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/annotation/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="2530">
+          <caret line="136" column="49" lean-forward="true" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiAddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserCouponVo.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiWeightController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="358">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiBmiController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/dao/ApiUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-admin/src/main/java/com/platform/controller/SysPageController.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="24" column="87" lean-forward="true" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+        <state relative-caret-position="-143">
+          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserVo.java">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/dao/ApiWeightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="368">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/api/ApiAuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1236">
+          <caret line="132" column="52" lean-forward="true" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/entity/UserLevelVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiWeightMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-api/src/main/java/com/platform/service/ApiUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="75">
           <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding>
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
             <element signature="e#1421#1422#0" expanded="true" />
             <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/platform/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="299">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform-common/src/main/resources/com/platform/dao/SysUserDao.xml">
+    <entry file="file://$PROJECT_DIR$/platform-api/src/main/resources/com/platform/dao/ApiUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="53">
+          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
         </state>
       </provider>
     </entry>
