@@ -104,8 +104,8 @@
 			`register_ip`,
 			`avatar`,
 			`weixin_openid`,
-			'height',
-			'weight')
+			`height`,
+			`weight`)
 		values(
 			#{username},
 			#{password},
@@ -139,9 +139,8 @@
             <if test="mobile != null">`mobile` = #{mobile},</if>
             <if test="registerIp != null">`register_ip` = #{registerIp},</if>
             <if test="avatar != null">`avatar` = #{avatar},</if>
-            <if test="weixinOpenid != null">`weixin_openid` = #{weixinOpenid}</if>
-            <if test="height!=null">'height'=#{height}</if>
-            <if test="weight!=null">'weight'=#{weight}</if>
+            <if test="weixinOpenid != null">`weixin_openid` = #{weixinOpenid},</if>
+
         </set>
         where id = #{id}
     </update>

@@ -7,7 +7,7 @@
 
 <view>
   <view>
-    <view class="login-title">关联手机号</view>
+    <view class="login-title">新人输入手机号领取优惠券</view>
     <form bindsubmit="bindLoginMobilecode">
       <form bindsubmit="bindGetPassCode">
         <view class="login">

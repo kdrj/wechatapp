@@ -109,21 +109,22 @@ public class ApiUserController extends ApiBaseAction {
     @PostMapping("updateinfo")
     public Object bindMobile(@LoginUser UserVo loginUser) {
         JSONObject jsonParams = getJsonRequest();
-        SmsLogVo smsLogVo = userService.querySmsCodeByUserId(loginUser.getUserId());
+//        SmsLogVo smsLogVo = userService.querySmsCodeByUserId(loginUser.getUserId());
 
-        String mobile_code = jsonParams.getString("mobile_code");
+//        String mobile_code = jsonParams.getString("mobile_code");
+        String nickname=jsonParams.getString("nickname");
         String mobile = jsonParams.getString("mobile");
         String username = jsonParams.getString("username");
         String password = jsonParams.getString("password");
         String height = jsonParams.getString("height");
         String weight = jsonParams.getString("weight");
 
-        if (!mobile_code.equals(smsLogVo.getSms_code())) {
-            return toResponsFail("验证码错误");
-        }
+//        if (mobile_code==null&&!mobile_code.equals(smsLogVo.getSms_code())) {
+//            return toResponsFail("验证码错误");
+//        }
         UserVo userVo = userService.queryObject(loginUser.getUserId());
         userVo.setMobile(mobile);
-        userVo.setUsername(username);
+        userVo.setNickname(nickname);
         userVo.setPassword(password);
         userVo.setHeight(height);
         userVo.setWeight(weight);

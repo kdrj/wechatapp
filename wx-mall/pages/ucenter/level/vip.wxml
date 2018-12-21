@@ -1,7 +1,20 @@
 <!--pages/ucenter/level/vip.wxml-->
 
-<view class="vip_selector_wrap">
-<text class="vip_text">{{level}}</text>
-  <image src="../../../static/images/vip.jpg" class="vip_image" mode="scaleToFill" />
-
+<view>
+  <image class="image" wx:if="{{userInfo && userInfo.avatarUrl}}" class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+  <view class="userinfo">
+  <text class="userinfo-nickname">名称：{{ userInfo.nickName }}</text>
+  <view wx:if="{{userInfo.gender==1}}">
+    <text class="gender">性别：男</text>
+  </view>
+  <view wx:elif="{{userInfo.gender==2}}">
+    <text class="gender">性别：女</text>
+  </view>
+  </view>
+  <text class="vip_text">{{level}}</text>
+  <image src="../../../static/images/vipa.png" class="vip_image" mode="scaleToFill" />
+  <text class="desc">{{description}}</text>
+</view>
+<view class="vip_description">
+  <image class='des_image' src='../../../static/images/vipintro.png' />
 </view>

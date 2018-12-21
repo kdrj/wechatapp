@@ -8,7 +8,7 @@
 # xx.xxxx.xxxx.Xxxxx your own cache broadcast policy classname that implement net.oschina.j2cache.ClusterPolicy
 #########################################
 j2cache.broadcast=redis
-#×é²¥µÄÍ¨µÀÃû³Æ
+#ï¿½é²¥ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 jgroups.channel.name=j2cache
 jgroups.configXml=/network.xml
 #########################################
@@ -57,8 +57,8 @@ caffeine.properties=/caffeine.properties
 #
 # single -> single redis server
 # sentinel -> master-slaves servers
-# cluster -> cluster servers (Êý¾Ý¿âÅäÖÃÎÞÐ§£¬Ê¹ÓÃ database = 0£©
-# sharded -> sharded servers  (ÃÜÂë¡¢Êý¾Ý¿â±ØÐëÔÚ hosts ÖÐÖ¸¶¨£¬ÇÒÁ¬½Ó³ØÅäÖÃÎÞÐ§ ; redis://user:password@127.0.0.1:6379/0£©
+# cluster -> cluster servers (ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½Ê¹ï¿½ï¿½ database = 0ï¿½ï¿½
+# sharded -> sharded servers  (ï¿½ï¿½ï¿½ë¡¢ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ hosts ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ ; redis://user:password@127.0.0.1:6379/0ï¿½ï¿½
 #
 #########################################
 redis.mode=single
@@ -72,10 +72,10 @@ redis.channel.host=
 redis.cluster_name=j2cache
 ## redis cache namespace optional, default[j2cache]
 redis.namespace=
-## connection ¼¯Èº»·¾³¶à¸öhostsÒÔÓ¢ÎÄ¶ººÅ¸ô¿ª£¬Èç 127.0.0.1:6379,127.0.0.1:6378
+## connection ï¿½ï¿½Èºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hostsï¿½ï¿½Ó¢ï¿½Ä¶ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 127.0.0.1:6379,127.0.0.1:6378
 redis.hosts=127.0.0.1:6379
 redis.timeout=2000
-## ¼¯ÈºÃ¿¸ö½ÚµãÃÜÂë±ØÐë±£³ÖÒ»ÖÂ
+## ï¿½ï¿½ÈºÃ¿ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë±£ï¿½ï¿½Ò»ï¿½ï¿½
 redis.password=
 redis.database=0
 ## redis pool properties

@@ -26,7 +26,7 @@ Page({
           userWeight: res.userWeight,
         });
       userWeight=res.userWeight
-      console.log(userWeight)
+      console.log(userWeight.createDate)
       var dateList = []
       var weightList = []
       for (var i = 0; i < userWeight.length; i++) {

@@ -37,10 +37,6 @@ public class ApiWeightController {
     public Object getweightlist(@LoginUser UserVo loginuser){
         Map<String,Object> resultObj=new HashMap<>();
         List<UserWeightVo> weightVoList=weightService.queryByUserId(loginuser.getUserId());
-        for (UserWeightVo user:weightVoList
-             ) {
-            System.out.println(user.getWeight());
-        }
         resultObj.put("userWeight",weightVoList);
         return resultObj;
     }

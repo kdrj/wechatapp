@@ -214,7 +214,7 @@ Page({
       icon: 'loading',
       duration: 50000
     })
-    util.request(api.UpdateUserInfo, {mobile_code: code, mobile: mobile, user_name: username, password: password, height: height, weight:weight })
+    util.request(api.UpdateUserInfo, { mobile_code: code, mobile: mobile, nickname: username, password: password, height: height, weight: weight }, 'POST', 'application/json')
       .then(function (res) {
          if (code == 200) {
           wx.showModal({

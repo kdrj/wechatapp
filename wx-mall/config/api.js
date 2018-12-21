@@ -1,6 +1,6 @@
 const root = '/api/';
 
-const API_BASE_URL = 'http://localhost:8080' + root;
+const API_BASE_URL = 'http://192.168.1.105:8080' + root;
 module.exports = {
     IndexUrlNewGoods: API_BASE_URL + 'index/newGoods', //新品首发
     IndexUrlHotGoods: API_BASE_URL + 'index/hotGoods', //热卖商品
@@ -80,4 +80,6 @@ module.exports = {
     GetBmi:API_BASE_URL+'bmi/getbmi',//查看bmi
     GetUserLevel: API_BASE_URL +'user/getUserLevel',//查看会员等级
     GetUserWeight: API_BASE_URL +'weight/queryweightlist',//查询体重
+  NewUserCoupon: API_BASE_URL +'coupon/newuser',//新用户注册领取优惠券
+  GiftCoupon:API_BASE_URL+'coupon/giftCoupon',
 };

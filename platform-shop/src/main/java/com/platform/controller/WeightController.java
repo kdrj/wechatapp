@@ -32,13 +32,14 @@ public class WeightController {
     @Autowired
     private WeightService weightService;
     @RequestMapping("/list")
-    @RequiresPermissions("weight:list")
+//    @RequiresPermissions("weight:list")
     public R list(@RequestParam Map<String,Object> params){
         Query query=new Query(params);
         PageHelper.startPage(query.getPage(),query.getLimit());
         List<UserWeightEntity> list=weightService.queryList(params);
-        for (UserWeightEntity user:list) {
-            System.out.println(user.getId());
+        for (UserWeightEntity weight:list
+             ) {
+            System.out.println(weight.getCreateDate());
         }
         PageUtils pageUtils=new PageUtils(new PageInfo(list));
         return R.ok().put("page",pageUtils);
@@ -57,11 +58,11 @@ public class WeightController {
      * 查看信息
      */
     @RequestMapping("/info/{id}")
-    @RequiresPermissions("weight:info")
+//    @RequiresPermissions("weight:info")
     public R info(@PathVariable("id") Integer id) {
         UserWeightEntity weightEntity= weightService.queryObject(id);
 
-        return R.ok().put("coupon", weightEntity);
+        return R.ok().put("weight", weightEntity);
     }
     /**
      * 修改

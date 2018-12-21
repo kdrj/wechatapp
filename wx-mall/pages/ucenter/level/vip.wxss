@@ -1,12 +1,53 @@
+
+
+
+
+
 /* pages/ucenter/level/vip.wxss */
 .vip_image{
+  padding-top: 10%;
   width:100%;
+  border-radius:10px;
+}
+.desc{
+  color: rgb(255, 242, 129);
+  font-size: small;
+  position: absolute;
+  top: 28%;
+  left:13%;
 }
 .vip_text{
-  color: white;
+  color: rgb(255, 237, 214);
   font-size: 2rem;
   align-content: center;
   position: absolute;
-  top: 23%;
-  left:5%;
+  top: 19%;
+  left:17%;
+}
+.vip_description {
+  padding:7%;
+}
+.des_image{
+   border-radius: 10px;
+}
+.userinfo-avatar {
+	width: 100rpx;
+	height: 100rpx;
+	margin: 20rpx;
+  top:8%;
+  left:12%;
+	border-radius: 50%;
+  position: absolute;
+}
+
+.userinfo {
+  position: absolute;
+   top:11%;
+  left:29%;
+}
+.userinfo-nickname{
+  color: rgb(252, 198, 127);
+}
+.gender{
+   color: rgb(252, 198, 127);
 }

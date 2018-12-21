@@ -91,10 +91,12 @@ public class ApiUserService {
 
     public String getUserLevel(UserVo loginUser) {
         String result = "普通用户";
+        String description="";
         UserLevelVo userLevelVo = userLevelDao.queryObject(loginUser.getUser_level_id());
         if (null != userLevelVo) {
             result = userLevelVo.getName();
+            description=userLevelVo.getDescription();
         }
-        return result;
+        return result+","+description;
     }
 }

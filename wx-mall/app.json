@@ -44,7 +44,7 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "减肥",
+    "navigationBarTitleText": "汤氏乐享减肥美体中心",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
@@ -75,8 +75,8 @@
     ]
   },
   "networkTimeout": {
-    "request": 10000,
-    "downloadFile": 10000
+    "request": 100000,
+    "downloadFile": 100000
   },
   "debug": true
 }

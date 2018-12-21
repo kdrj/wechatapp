@@ -8,8 +8,9 @@ $(function () {
         url: url,
         colModel: [
             {label: 'id', name: 'id', index: 'id', key: true, hidden: true},
-            {label: '会员', name: 'userName', index: 'user_name', width: 20},
-            {label: '日期', name: 'date', index: 'create_date', width: 20},
+            {label: '会员', name: 'userId', index: 'user_id', width: 20},
+            {label: '日期', name: 'date', index: 'create_date', width: 20,formatter: function (value) {
+                    return transDate(value);}},
             {label: '体重', name: 'weight', index: 'weight', width: 20}
 
         ]
@@ -18,9 +19,15 @@ $(function () {
     var vm=new Vue({
         el:"#rrapp",
         data:{
+            isReadOnly:true,
             showList:true,
             title:null,
-            weight:{},
+            userWeight:{},
+            ruleValidate: {
+                weight: [
+                    {required: true, message: '体重不能为空', trigger: 'blur'}
+                ]
+            },
             q:{
                 name:''
             }
@@ -32,7 +39,6 @@ $(function () {
             add:function () {
                 vm.showList = false;
                 vm.title = "新增";
-                vm.weight = {};
             },
             update:function () {
                 var id = getSelectedRow("#jqGrid");
@@ -45,12 +51,12 @@ $(function () {
                 vm.getInfo(id)
             },
             saveOrUpdate: function (event) {
-                var url = vm.cart.id == null ? "../weight/save" : "../weight/update";
+                var url = vm.userWeight.id == null ? "../weight/save" : "../weight/update";
                 Ajax.request({
                     type: "POST",
                     url: url,
                     contentType: "application/json",
-                    params: JSON.stringify(vm.cart),
+                    params: JSON.stringify(vm.userWeight),
                     successCallback: function (r) {
                         alert('操作成功', function (index) {
                             vm.reload();
@@ -83,7 +89,7 @@ $(function () {
                     url: "../weight/info/" + id,
                     async: true,
                     successCallback: function (r) {
-                        vm.weight = r.weight;
+                        vm.userWeight = r.weight;
                     }
                 });
             },
@@ -95,6 +101,14 @@ $(function () {
                     page: page
                 }).trigger("reloadGrid");
 
-        }
+        },
+            handleSubmit: function (name) {
+                handleSubmitValidate(this, name, function () {
+                    vm.saveOrUpdate()
+                });
+            },
+            handleReset: function (name) {
+                handleResetForm(this, name);
+            }
     }
 })

@@ -16,10 +16,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="platform-common" />
-    <orderEntry type="library" name="Maven: com.qiniu:qiniu-java-sdk:7.2.17" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.9.1" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.qiniu:qiniu-java-sdk:7.2.18" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: com.aliyun.oss:aliyun-sdk-oss:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
@@ -70,11 +70,11 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.19" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.39" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:druid:1.0.28" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.4" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://E:/tts9/jdk1.8.0_71/lib/jconsole.jar!/" />
+          <root url="jar://E:/jdk1.8.0_71/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -83,7 +83,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://E:/tts9/jdk1.8.0_71/lib/tools.jar!/" />
+          <root url="jar://E:/jdk1.8.0_71/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

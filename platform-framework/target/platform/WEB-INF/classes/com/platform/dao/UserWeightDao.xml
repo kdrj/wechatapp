@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.platform.dao.WeightDao">
+<mapper namespace="com.platform.dao.UserWeightDao">
 
-    <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.platform.entity.UserWeightEntity" id="userWeightEntity">
         <result property="id" column="id"/>
         <result property="userId" column="user_id"/>
         <result property="weight" column="weight"/>
         <result property="createDate" column="create_date"/>
     </resultMap>
-
     <select id="queryObject" resultMap="userWeightEntity">
-		select * from nideshop_user_weight where id = #{value}
+		select * from nideshop_user_weight where id = #{id}
 	</select>
-
-    <select id="queryList" resultMap="userWeightEntity">
-        select * from nideshop_user_weight where id=#{value}
+    <select id="queryList" resultType="com.platform.entity.UserWeightEntity">
+        select * from nideshop_user_weight where user_id=#{userId}
         <choose>
             <when test="sidx != null and sidx.trim() != ''">
                 order by ${sidx} ${order}
@@ -26,7 +23,6 @@
             </otherwise>
         </choose>
     </select>
-
     <insert id="save" parameterType="com.platform.entity.UserWeightEntity" useGeneratedKeys="true" keyProperty="id">
 		insert into nideshop_user_weight(
 			`user_id`,
@@ -37,17 +33,15 @@
 			#{weight},
 			#{createDate})
 	</insert>
-
     <update id="update" parameterType="com.platform.entity.UserWeightEntity">
         update nideshop_user_weight
         <set>
             <if test="userId != null">`user_id` = #{userId}, </if>
             <if test="weight != null">`weight` = #{weight}, </if>
-            <if test="createDate != null">`create_date` = #{creaateDate}, </if>
+            <if test="createDate != null">`create_date` = #{createDate}, </if>
         </set>
-        where user_id = #{user_id}
+        where id = #{id}
     </update>
-
     <delete id="delete">
 		delete from nideshop_user_weight where user_id = #{value}
 	</delete>

@@ -4,7 +4,7 @@ package com.platform.service.impl;/**
  * @desc 体重
  **/
 
-import com.platform.dao.WeightDao;
+import com.platform.dao.UserWeightDao;
 import com.platform.entity.UserWeightEntity;
 import com.platform.service.WeightService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,7 @@ import java.util.Map;
 public class WeightServiceImpl implements WeightService {
 
     @Autowired
-    private WeightDao weightDao;
+    private UserWeightDao weightDao;
     @Override
     public UserWeightEntity queryObject(Integer id){
         return weightDao.queryObject(id);
@@ -46,6 +46,7 @@ public class WeightServiceImpl implements WeightService {
 
     @Override
     public int update(UserWeightEntity userWeightEntity) {
+        userWeightEntity.setCreateDate(new Date());
         return weightDao.update(userWeightEntity);
     }
 

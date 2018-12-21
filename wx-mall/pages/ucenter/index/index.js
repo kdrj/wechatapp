@@ -14,10 +14,12 @@ Page({
       var level = this.data.level;
       let that=this;
       util.request(api.GetUserLevel).then(function (res) {
-        console.log(res.data)
+        var data = res.data.toString()
+        var a = data.split(",");
+        console.log(a)
         if (res.errno === 0) {
           that.setData({
-            level: res.data
+            level: a[0]
           });
         }
       });

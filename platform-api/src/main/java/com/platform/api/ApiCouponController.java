@@ -188,7 +188,7 @@ public class ApiCouponController extends ApiBaseAction {
         // 是否领取过了
         Map params = new HashMap();
         params.put("user_id", loginUser.getUserId());
-        params.put("send_type", 2);
+        params.put("send_type", 1);
         params.put("source_key", sourceKey);
         List<CouponVo> couponVos = apiCouponService.queryUserCoupons(params);
         if (null != couponVos && couponVos.size() > 0) {
@@ -215,6 +215,47 @@ public class ApiCouponController extends ApiBaseAction {
             params.put("user_id", loginUser.getUserId());
             params.put("send_type", 2);
             params.put("source_key", sourceKey);
+            couponVos = apiCouponService.queryUserCoupons(params);
+            return toResponsSuccess(couponVos);
+        } else {
+            return toResponsFail("领取失败");
+        }
+    }
+    /**
+     * 　　幸运大转盘
+     */
+    @ApiOperation(value = "幸运大转盘")
+    @PostMapping("giftCoupon")
+    public Object giftCoupon(@LoginUser UserVo loginUser) {
+        JSONObject jsonParam = getJsonRequest();
+        // 是否领取过了
+//        String amount=jsonParam.getString("amount");
+        Map params = new HashMap();
+        params.put("user_id", loginUser.getUserId());
+        params.put("send_type", 1);
+        List<CouponVo> couponVos = apiCouponService.queryUserCoupons(params);
+        if (null != couponVos && couponVos.size() > 0) {
+            return toResponsObject(2, "已经领取过", couponVos);
+        }
+        // 领取
+        Map couponParam = new HashMap();
+        couponParam.put("send_type", 1);
+        CouponVo newCouponConfig = apiCouponService.queryMaxUserEnableCoupon(couponParam);
+        System.out.println(newCouponConfig);
+        if (null != newCouponConfig) {
+            UserCouponVo userCouponVo = new UserCouponVo();
+            userCouponVo.setAdd_time(new Date());
+            userCouponVo.setCoupon_id(newCouponConfig.getId());
+            userCouponVo.setCoupon_number("1");
+            userCouponVo.setUser_id(loginUser.getUserId());
+            apiUserCouponService.save(userCouponVo);
+            //
+            List<UserCouponVo> userCouponVos = new ArrayList();
+            userCouponVos.add(userCouponVo);
+            //
+            params = new HashMap();
+            params.put("user_id", loginUser.getUserId());
+            params.put("send_type", 1);
             couponVos = apiCouponService.queryUserCoupons(params);
             return toResponsSuccess(couponVos);
         } else {
